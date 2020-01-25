@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Greenville, Idaho| The Weather Site| Greenville, SC</title>
+    <meta name="author" content="This website gives the weather information of the city of Greenville, Salt Lake City">
+    <!--  The meta element below is for responsove behavior-->
+    <meta name="viewport" content="width=divice-width">
+    <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen">
+  </head>
+
+  <body>
+    <div>
+      <header id="page-header">
+        <div id="logo">&#9748;</div>
+        <p id="site-brand">The Weather Site</p>
+
+      </header>
+      <nav id="page-nav">
+        <ul>
+          <li id="home"><a href="https://smainoo.github.io/" title="go to main homepage">Home</a></li>
+          <li><a href="search.html" title="Search page">Search</a></li>
+          <li><a href="/weather/franklin.html" title="Franklin page">Franklin</a></li>
+          <li><a href="/weather/greenville.html" title="Greenville page">Greenville</a></li>
+          <li><a href="#" title="Springfield page">Springfield</a></li>
+
+          <!--        <img src="images/weather-nav-bar.png" alt="weather navigation bar">-->
+
+        </ul>
+      </nav>
+
+      <main>
+        <!--      put all content in a tile container-->
+
+        <h1>Greenville, SC</h1>
+        <section id="locationInfo">
+          <p><b>Zip</b>: 29601</p>
+          <p><b>|Elevation</b>: 966 ft.</p>
+          <p><b>|Location</b>: 34.85&deg;N, 82.4&deg;W</p>
+        </section>
+
+        <!--      Small weather conditions content-->
+        <div id="weatherInfo" class="clouds">
+          <div id="small">
+            <section id="temps">
+              <h2>Temperature</h2>
+              <p id="mainTemp">50&deg;F</p>
+              <p><span id="max">53&deg;F</span><span id="min">36&deg;F</span></p>
+              <p id="feels">Feels Like <span id="feelTemp">30</span>&deg;F</p>
+            </section>
+
+            <!--          wind inforation-->
+            <section id="wind">
+              <h2>Wind</h2>
+              <p class="northPoint">SW</p>
+              <div id="dial" class="sW">
+              </div>
+              <p id="windSpeed">8 mph</p>
+              <ul id="windDirection">
+                <li><b>Direction:</b>SW</li>
+                <li><b>Gusts:</b>5mph</li>
+              </ul>
+            </section>
+          </div>
+
+          <section id="video">
+            <h2>Video Forecast</h2>
+            <img src="/smainoo.github.io/weather/images/video.png" alt="Video icon">
+
+          </section>
+        </div>
+        <!--      <img src="images/wireframe-small.png" alt="small frame">-->
+        <!--      <img src="images/wireframe-large.png" alt="large frame">-->
+        <!--      <div id="hourInfo">
+<section id="hourly">
+<h2>Hourly Forecast<h2/>
+<p> 12am: 39F | 1am: 38F | 2am: 38F | 3am: 37F | 4am: 37F | 5am: 36F | 6am: 36 |7am: 36F |8am: 37F | 9am: 40F | 10am: 44&deg; F | 11am: 48F | 12am: 50F | 13am: 51F | 14am: 52F | 15am: 52F | 16am: 53F | 17am: 53F | 18am: 53F | 19am: 51F | 20am: 51F | 21am: 50F | 22am: 49F | 23am: 49F
+
+</p>
+</section>
+</div>-->
+
+      </main>
+      <footer id="page-footer">
+        &copy;2018 Smith Mainoo, About etc...<br>
+        Last updated: 13 February 2018
+      </footer>
+
+    </div>
+    <!--    Weather Site Javascript Functions-->
+    <script src="/weather/js/function.js"></script>
+  </body>
+
+</html>
